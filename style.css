@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html body {
+    height: 100%;
+    width: 100%;
+    background-color: #52901F;
+}
+
+#main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#reset button{
+    height: 50px;
+    width: 80px;
+    font-size: 16px;
+    background:rgb(60, 94, 60);
+    border: 1px solid black;
+   align-content: center;
+   padding-left: 10px;
+   border-radius: 30px;
+   letter-spacing: 2px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#panel {
+    height: 80vh;
+    width: 70vw;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#panel-top {
+    width: 100%;
+    height: 15%;
+    background-color:#94C11E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 200px;
+}
+
+.elem {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 10px;
+
+}
+
+
+
+.elem h2 {
+    width: 30%;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.box {
+    height: 35%;
+    width: 30%;
+    background-color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#panel-btm {
+    height: 85%;
+    width: 100%;
+
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#bubble {
+    height: 60px;
+    width: 60px;
+    background-color: rgba(39, 66, 40, 0.719);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#bubble:hover {
+    color: white;
+    scale: 1.2;
+    cursor: pointer;
+}
+#start{
+    height: 50%;
+    width: 40%;
+    /* background: red; */
+    z-index: 5;
+}
+#start button{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(60, 94, 60);
+    font-weight: 800;
+    border-radius: 30px;
+    border: 2px solid;
+    letter-spacing: 1px;
+
+}
+#start:hover button{
+    color:white ;
+    scale: 1.2;
+    cursor: pointee;
+}
+#reset:hover button{
+    color:white ;
+    scale: 1.2;
+    cursor: pointee;
+}
